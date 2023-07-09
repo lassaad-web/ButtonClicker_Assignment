@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 50px;
+    display: flex;
+    justify-content: center!important;
+}
+header >div {
+    width: 700px;
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btn_lgn {
+    padding: 3px 8px 3px 8px;
+    background-color: #17a2b8;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+}
+/*#btn_lgn:hover { background-color : gray;}*/
+main {
+    width: 740px;
+    height: 400px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+}
+.container1 {
+    flex: 2;
+    margin-right: 20px;
+}
+.card {
+    padding: 20px 50px 20px 10px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+.part1 {
+    width: 150px;
+    text-align: center;
+    margin-right: 40px;
+}
+#btn_like {
+    margin-top: 20px;
+    padding: 3px 8px 3px 8px;
+    background-color: #ffd966;
+    color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+}
+.italique {
+    font-style: italic;
+}
+.autre_style {
+    color: blue;
+    text-decoration: underline;
+    font-size: 14pt;
+}
+.container2 {
+    padding: 20px;
+    height: 70px;
+    border: 3px solid black;
+}
+#btn_add {
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    background-color: #93C47D;
+    color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+}
+.btn_center {
+    text-align: center;
+}
+
+
